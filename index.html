@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tobias Janssen – Software Developer</title>
+  <meta name="description" content="Tobias Janssen – software developer and C# .NET backend team lead from Kleve, Germany.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+
+  <header class="top">
+    <div class="wrap top__inner">
+      <a class="logo" href="#">tobiasjanssen<span>.dev</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="intro wrap">
+      <img class="avatar" src="avatar.jpg" alt="Tobias Janssen" width="184" height="184">
+      <div>
+        <p class="kicker">Kleve, Lower Rhine, Germany</p>
+        <h1>I'm Tobi.</h1>
+        <p class="roles">Team Lead C# .NET Backend <i>@</i> RZH</p>
+      </div>
+    </section>
+
+    <section id="about" class="wrap block">
+      <h2>About me</h2>
+      <div class="about">
+        <p>
+          I build backends – mostly with C# and ASP.NET Core, mostly for web APIs.
+          Starting November 2026 I'm leading the C# .NET backend team at RZH
+          (Rechenzentrum für Heilberufe). Before that I spent seven years at traperto GmbH
+          in Kleve, the last few of them as team lead – working on architecture, code
+          reviews and the question of how a team can do its best work.
+        </p>
+        <p>
+          I started out in automotive infotainment in Ingolstadt, then moved back to the
+          Lower Rhine. Along the way I picked up C, C++, Java, PHP and JavaScript –
+          but .NET is where I stuck.
+        </p>
+        <p>
+          I care more about readable code than clever code. And Git is a bit of a
+          hobby horse of mine: if someone on the team is stuck in the middle of a rebase,
+          they're welcome to drop by.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="wrap block">
+      <h2>Experience</h2>
+
+      <ol class="timeline">
+        <li>
+          <div class="when">from 11/2026</div>
+          <div class="what">
+            <h3>Team Lead C# .NET Backend</h3>
+            <p class="where">RZH Rechenzentrum für Heilberufe</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">08/2019 – 10/2026</div>
+          <div class="what">
+            <h3>Software Developer &amp; .NET Team Lead</h3>
+            <p class="where">traperto GmbH · Kleve</p>
+            <p>Backend development with ASP.NET Core, Entity Framework and LINQ, including identity system integration via SCIM. From 05/2021 also team lead: technical lead of the .NET team and software architecture. Working with Scrum and Kanban.</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">04/2017 – 08/2019</div>
+          <div class="what">
+            <h3>Software Developer</h3>
+            <p class="where">APTIS GmbH · Kleve</p>
+          </div>
+        </li>
+        <li>
+          <div class="when">08/2015 – 03/2017</div>
+          <div class="what">
+            <h3>Infotainment Development</h3>
+            <p class="where">SPARKS GmbH · Ingolstadt</p>
+            <p>Joined as a graduate (08/2015 – 02/2016), then worked as a developer in infotainment.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects" class="wrap block">
+      <h2>Projects</h2>
+      <p class="lead">A few things I've built or contributed to outside of work. Everything's on <a href="https://github.com/kryptobi">GitHub</a>.</p>
+
+      <div class="cards">
+        <a class="card" href="https://github.com/doka-labs/Doka.EntityFrameworkCore.MySql">
+          <span class="tag">Contributor</span>
+          <h3>Doka.EntityFrameworkCore.MySql</h3>
+          <p>EF Core 10 provider for MySQL and MariaDB.</p>
+          <span class="lang">C#</span>
+        </a>
+        <a class="card" href="https://github.com/neon-JS/MagicBytesValidator">
+          <span class="tag">Contributor</span>
+          <h3>MagicBytesValidator</h3>
+          <p>Validates files by their magic bytes instead of just trusting the extension.</p>
+          <span class="lang">C#</span>
+        </a>
+        <a class="card" href="https://github.com/kryptobi/database-easy-log">
+          <span class="tag">NuGet</span>
+          <h3>DatabaseEasyLog</h3>
+          <p>Logs entity changes through the DbContext, independent of the database driver. Born out of the fact that MySQL has no temporal tables.</p>
+          <span class="lang">C#</span>
+        </a>
+        <a class="card" href="https://github.com/kryptobi/chrome-extension-youtrack-swimlane-collapse">
+          <span class="tag">Tool</span>
+          <h3>YouTrack Swimlane Collapse</h3>
+          <p>Chrome extension that collapses all swimlanes on a YouTrack agile board at once.</p>
+          <span class="lang">JavaScript</span>
+        </a>
+      </div>
+
+      <h3 class="sub">Meetups &amp; learning projects</h3>
+      <ul class="mini">
+        <li><a href="https://github.com/kryptobi/meetup-software-architecture">meetup-software-architecture</a> <span>Talk on software architecture, slides included</span></li>
+        <li><a href="https://github.com/kryptobi/meetup-streams">meetup-streams</a> <span>Streams in .NET – buffers, IDisposable, managed vs. unmanaged</span></li>
+        <li><a href="https://github.com/kryptobi/mediator-event-based-architecture">mediator-event-based-architecture</a> <span>Event-based architecture with a mediator</span></li>
+        <li><a href="https://github.com/kryptobi/odata-api-design">odata-api-design</a> <span>API design with OData</span></li>
+        <li><a href="https://github.com/kryptobi/rabbitmq-messaging">rabbitmq-messaging</a> <span>Messaging with RabbitMQ</span></li>
+        <li><a href="https://github.com/kryptobi/invoce-custom-code-api">invoce-custom-code-api</a> <span>Invoking custom code via middleware in ASP.NET Core</span></li>
+        <li><a href="https://github.com/kryptobi/action-filter">action-filter</a> <span>Manipulating incoming data with action filters</span></li>
+        <li><a href="https://github.com/kryptobi/signalR">signalR</a> <span>A simple SignalR implementation</span></li>
+        <li><a href="https://github.com/kryptobi/git-hooks">git-hooks</a> <span>Git hook examples</span></li>
+      </ul>
+    </section>
+
+    <section class="wrap block split">
+      <div>
+        <h2>Certifications</h2>
+        <ul class="certs">
+          <li>Dive into Refactoring <span>Refactoring.Guru · 11/2025</span></li>
+          <li>From Zero to Hero: REST APIs in .NET <span>Dometrain · 06/2025</span></li>
+          <li>Deep Dive C# <span>Dometrain · 02/2025</span></li>
+          <li>Design Patterns in C#: Strategy <span>Dometrain · 02/2025</span></li>
+          <li>Design Patterns in C#: Singleton <span>Dometrain</span></li>
+          <li>Trainer qualification (AdA) <span>IHK Oberbayern · 10/2016</span></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Toolbox</h2>
+        <div class="skills">
+          <p class="group">Languages &amp; frameworks</p>
+          <ul class="chips">
+            <li>C#</li><li>.NET</li><li>ASP.NET Core</li><li>Web API</li><li>Entity Framework</li><li>LINQ</li><li>SQL</li><li>C</li>
+          </ul>
+          <p class="group">Concepts</p>
+          <ul class="chips">
+            <li>Software architecture</li><li>Clean Code</li><li>Refactoring</li><li>SCIM</li><li>Encryption</li>
+          </ul>
+          <p class="group">Process &amp; tools</p>
+          <ul class="chips">
+            <li>Git</li><li>GitHub</li><li>Scrum</li><li>Kanban</li><li>YouTrack</li><li>Jira</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="contact" class="foot">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>The easiest way to reach me is LinkedIn – or have a look around on GitHub.</p>
+      <p class="links">
+        <a href="https://www.linkedin.com/in/tobias-janssen-72519a16b/">LinkedIn</a>
+        <a href="https://github.com/kryptobi">GitHub</a>
+      </p>
+      <p class="small">© 2026 Tobias Janssen · Kleve · <a href="impressum.html">Legal notice</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
